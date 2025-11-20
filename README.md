@@ -17,5 +17,7 @@ DP --> PB6
 To display each number we should setup the following segments:  
 0: a, b, c, d, e, f --> 1  g --> 0  
 1: b, c --> 1  a, d, e, f, g --> 0  
-2; a, b, g, e, d --> 1  f, c --> 0  
-
+2: a, b, g, e, d --> 1  f, c --> 0  
+3: a, b, c, d, g --> 1  f, e --> 0  
+4: f, g, b, c --> 1  a, e, d --> 0  
+5: a, f, g, c, d --> 1  b, e --> 0  
