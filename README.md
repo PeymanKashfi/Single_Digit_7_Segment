@@ -6,6 +6,8 @@ Each segment connected to a GPIO port as folows:
 a --> PB9  
 b --> PB8  
 c --> PB5  
-d --> PB4
+d --> PB4  
 e --> PB3  
+f --> PA5  
+g --> PA6  
 
