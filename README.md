@@ -13,7 +13,10 @@ e --> PC4
 f --> PC5  
 g --> PC6  
 DP --> PC7  
-  
+
+We use ODR (Output Data Register) for GPIO to set and reset the corresponding pins.  
+Also, we always turn DP (Decimal Point) on, so the PC7 pin is always on.  
+
 To display each number we should setup the following segments:  
 0: a, b, c, d, e, f --> 1  g --> 0  
 1: b, c --> 1  a, d, e, f, g --> 0  
@@ -21,3 +24,8 @@ To display each number we should setup the following segments:
 3: a, b, c, d, g --> 1  f, e --> 0  
 4: f, g, b, c --> 1  a, e, d --> 0  
 5: a, f, g, c, d --> 1  b, e --> 0  
+  
+0 --> PC7...PC0 --> 0b1011,1111 --> 0xBF  
+1 --> PC7...PC0 --> 0b1000,0110 --> 0x86  
+2 --> PC7...PC0 --> 0b
+
