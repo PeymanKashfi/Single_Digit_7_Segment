@@ -5,14 +5,14 @@ First, I setup the clock to the maximum 80MHz.
 Then, I configure the corresponding GPIO pins as GPIO output in .ioc file.  
   
 Each segment connected to a GPIO port as folows:  
-a --> PB9  
-b --> PB8  
-c --> PB5  
-d --> PB4  
-e --> PB3  
-f --> PA5  
-g --> PA6  
-DP --> PB6  
+a --> PC0  
+b --> PC1  
+c --> PC2  
+d --> PC3  
+e --> PC4  
+f --> PC5  
+g --> PC6  
+DP --> PC7  
   
 To display each number we should setup the following segments:  
 0: a, b, c, d, e, f --> 1  g --> 0  
