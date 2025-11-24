@@ -42,7 +42,18 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+int LEDs[] = {	0xBF, 	//0.
+				0x86, 	//1.
+				0xDB,	//2.
+				0xCF,	//3.
+				0xE6,	//4.
+				0xED,	//5.
+				0xFD,	//6.
+				0x87,	//7.
+				0xFF,	//8.
+				0xEF	//9.
+};
+int count = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -97,7 +108,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
+	  GPIOC -> ODR = LEDs[count];
+	  HAL_Delay(1000);
+	  count++;
+	  if (count == 10)
+		  count = 0;
   }
   /* USER CODE END 3 */
 }
