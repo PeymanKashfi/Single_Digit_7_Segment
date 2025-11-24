@@ -1,3 +1,3 @@
 # Single_Digit_7_Segment
-Please see the README.docx in "Notes" folder.
+Please refer to the file README.docx in the Single_Digit_7_Segment\Notes folder.
 
