@@ -15,6 +15,19 @@ The decimal point (DP) is permanently enabled in this project.
 - Breadboard
 - Jumper Wires
 
+## Segment Connections
+
+| Segment | STM32 Pin |
+|----------|-----------|
+| a | PC0 |
+| b | PC1 |
+| c | PC2 |
+| d | PC3 |
+| e | PC4 |
+| f | PC5 |
+| g | PC6 |
+| DP | PC7 |
+
 ## Features
 
 - GPIO-based 7-segment control
@@ -55,19 +68,6 @@ The decimal point (DP) is permanently enabled in this project.
 ## Documentation
 
 [Schematic PDF](Single_Digit_7_Segment/Docs/single_digit_7_segment_schematic.pdf)
-
-## Segment Connections
-
-| Segment | STM32 Pin |
-|----------|-----------|
-| a | PC0 |
-| b | PC1 |
-| c | PC2 |
-| d | PC3 |
-| e | PC4 |
-| f | PC5 |
-| g | PC6 |
-| DP | PC7 |
 
 ## Development Environment
 
