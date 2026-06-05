@@ -39,14 +39,12 @@ Fixed decimal point display
 
 ## Project Structure
 
-Core/
-
-Drivers/
-
-Docs/
-
-Images/
-
+| Folder | Description |
+|----------|-------------|
+| Core | Application source and header files |
+| Drivers | STM32 HAL and CMSIS drivers |
+| Docs | Project documentation and schematic |
+| Images | Hardware setup photos |
 
 ## Images
 
