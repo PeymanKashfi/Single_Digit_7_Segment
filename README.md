@@ -25,33 +25,47 @@ Fixed decimal point display
 ## Display Encoding Table
 
 Digit	ODR Value
+
 0	0xBF
+
 1	0x86
+
 2	0xDB
+
 3	0xCF
+
 4	0xE6
+
 5	0xED
+
 6	0xFD
+
 7	0x87
+
 8	0xFF
+
 9	0xEF
 
 ## Project Structure
 
 Core/
+
 Drivers/
+
 Docs/
+
 Images/
+
 
 ## Images
 
-![Hardware Setup](Images/single_digit_7_segment_hardware_1.jpg)
+![Hardware Setup](Single_Digit_7_Segment/Images/single_digit_7_segment_hardware_1.jpg)
 
-![Additional View](Images/single_digit_7_segment_hardware_2.jpg)
+![Additional View](Single_Digit_7_Segment/Images/single_digit_7_segment_hardware_2.jpg)
 
 ## Documentation
 
-[Schematic PDF](Docs/single_digit_7_segment_schematic.pdf)
+[Schematic PDF](Single_Digit_7_Segment/Docs/single_digit_7_segment_schematic.pdf)
 
 
 
