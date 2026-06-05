@@ -45,5 +45,13 @@ Images/
 
 ## Images
 
+![Hardware Setup](Images/single_digit_7_segment_hardware_1.jpg)
+
+![Additional View](Images/single_digit_7_segment_hardware_2.jpg)
+
+## Documentation
+
+[Schematic PDF](Docs/single_digit_7_segment_schematic.pdf)
+
 
 
