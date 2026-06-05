@@ -9,18 +9,18 @@ The decimal point (DP) is permanently enabled in this project.
 
 ## Hardware
 
-STM32 NUCLEO-L476RG Development Board
-1-Digit Common Cathode 7-Segment LED Display
-8 × 330Ω Resistors
-Breadboard
-Jumper Wires
+- STM32 NUCLEO-L476RG Development Board
+- 1-Digit Common Cathode 7-Segment LED Display
+- 8 × 330Ω Resistors
+- Breadboard
+- Jumper Wires
 
 ## Features
 
-GPIO-based 7-segment control
-Direct register manipulation using GPIO ODR
-Displays digits 0 to 9
-Fixed decimal point display
+- GPIO-based 7-segment control
+- Direct register manipulation using GPIO ODR
+- Displays digits 0 to 9
+- Fixed decimal point display
 
 ## Display Encoding Table
 
@@ -55,6 +55,25 @@ Fixed decimal point display
 ## Documentation
 
 [Schematic PDF](Single_Digit_7_Segment/Docs/single_digit_7_segment_schematic.pdf)
+
+## Segment Connections
+
+| Segment | STM32 Pin |
+|----------|-----------|
+| a | PC0 |
+| b | PC1 |
+| c | PC2 |
+| d | PC3 |
+| e | PC4 |
+| f | PC5 |
+| g | PC6 |
+| DP | PC7 |
+
+## Development Environment
+
+- STM32CubeIDE
+- STM32CubeMX
+- STM32 HAL Drivers
 
 
 
