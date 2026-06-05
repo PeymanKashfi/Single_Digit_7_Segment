@@ -24,27 +24,18 @@ Fixed decimal point display
 
 ## Display Encoding Table
 
-Digit	ODR Value
-
-0		0xBF
-
-1		0x86
-
-2		0xDB
-
-3		0xCF
-
-4		0xE6
-
-5		0xED
-
-6		0xFD
-
-7		0x87
-
-8		0xFF
-
-9		0xEF
+| Digit | ODR Value |
+|--------|-----------|
+| 0 | 0xBF |
+| 1 | 0x86 |
+| 2 | 0xDB |
+| 3 | 0xCF |
+| 4 | 0xE6 |
+| 5 | 0xED |
+| 6 | 0xFD |
+| 7 | 0x87 |
+| 8 | 0xFF |
+| 9 | 0xEF |
 
 ## Project Structure
 
